@@ -1,0 +1,92 @@
+   /* * {
+    outline: 1px solid
+} */
+
+nav {
+    position: top;
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black; /* orámovanie 1px solid=celý orámovaný */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+ul.navigace>li {
+    display: inline-block;
+}
+
+.aktp a, .neaktp:hover a { /* neakt položka bude vyzerať ako aktp keď na nej bude kurzor */
+    padding: 5px 15px; /* výplň, odsunutie od hrany elementu, odsadenie zvnútra */
+    background-color: black;
+    color: white;
+
+    text-decoration: none;
+    font-display: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    transition: .1s; /* podrží zmenu určitú dobu */
+    margin: 5px; /* margin je odlačenie elementu z vonka, odtlačenie z vonka */
+    font-weight: bold;
+}
+
+.neaktp a {
+    padding: 5px 15px; /* výplň, odsunutie od hrany elementu, odsadenie zvnútra */
+    background-color: white;
+    color: black;
+
+    text-decoration: none;
+    font-display: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    transition: .1s; /* podrží zmenu určitú dobu */
+    margin: 5px; /* margin je odlačenie elementu z vonka, odtlačenie z vonka */
+    font-weight: bold;
+}
+
+body {
+    width: 960px;
+    background-color: white;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /*    border-left: solid 1px;
+    border-right: solid 1px;   */
+}
+
+
+ .nadpis1 {
+    text-align: center;
+    font-size: 200%;
+ }
+ 
+ .paragraf {
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 18px;
+     line-height: 24px;
+     width: 50%;
+     text-align: justify;
+     margin-left: 300px;
+     margin-right: 300px;
+ }
+ 
+ .futer {
+    display: block;
+    font-size: 69%;
+    text-align: center;
+    margin-top: 175px;
+    text-decoration: none;
+    color: black;
+    border-top: solid 1px;
+}
+
+.tabulka2 {
+    font-family: 'Times New Roman', Times, serif;
+     font-size: 18px;
+     line-height: 24px;
+     width: 100%;
+     border: solid 1px;
+     text-align: center;
+}
