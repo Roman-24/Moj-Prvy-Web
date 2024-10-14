@@ -1,4 +1,4 @@
-# Moj-Prvy-Web
-Toto je moja prvá webstránka akú som kedy vytvoril. Celý web je napísaný ručne od úplneho základu.
+# My First Website
+This is my first website that I have ever created. The entire site is hand-coded from scratch.
 
-Konečná verzia webu obsahuje includovanie hlavičiek a pätičiek pomocou PHP, podľa toho na akej podstránke sa nachádzame. Projekt zahŕňa aj CSS animáciu menu, dynamické načítavanie súborov pomocou PHP pre fotogalériu a jednoduchý formulár.
+The final version of the website includes the use of PHP to include headers and footers based on the current subpage. The project also features CSS animation for the menu, dynamic file loading via PHP for the photo gallery, and a simple form.
